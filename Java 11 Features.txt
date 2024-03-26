@@ -1,0 +1,29 @@
+Java 11 Features:
+
+no need to compile the java file, directly run the file
+
+String methods:
+
+isBlank():
+This method is used to check whether given string is blank or only contains white spaces, and it will return boolean value as output.
+String.isBlank();
+
+lines():
+Tjis method will returns a stream of lines extracted from given staring,
+A line can be defined as a sequence of zero or more characters followed by a line terminator.
+String.lines();
+
+repeat():
+This method returns the calling string repeated n times.
+"baba".repeat(2);
+o/p"babababa
+
+
+strip() :
+This method is used to remove all trailing and leading white spaces from the given string
+
+stripLeading():
+This method will remove only leading white spaces
+
+stripTrailing():
+This method will remove only trailing white spaces
